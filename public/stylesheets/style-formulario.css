@@ -37,7 +37,7 @@ body {
   }
   
   input[type="submit"] {
-    background-color: #4caf50;
+    background-color: #afb1af;
     color: #fff;
     padding: 10px 16px;
     border: none;
@@ -46,7 +46,7 @@ body {
   }
   
   input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #b8bbb8;
   }
   
   input:required, select:required {
@@ -58,6 +58,6 @@ body {
   }
   
   input:valid, select:valid {
-    border-color: #00ff00;
+    border-color: #202020;
   }
   

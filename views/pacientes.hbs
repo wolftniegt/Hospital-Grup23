@@ -15,7 +15,7 @@
         {{#each pacientes}}
         <tr>
             <form action="/pacientes/actualizar/{{cedula}}" method="post">
-                <td><input id="cedula" name="cedula" value="{{cedula}}" disabled></td>
+                <td><input id="cedula" name="cedula" value="{{cedula}}"> </td>
                 <td><input id="nombre" name="nombre" value="{{nombre}}" {{../opcion}}>
                 </td>
                 <td><input id="apellido" name="apellido" value="{{apellido}}" {{../opcion}}></td>
